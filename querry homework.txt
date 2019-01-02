@@ -1,0 +1,8 @@
+SELECT * FROM Customers
+SELECT CustomerID FROM Customers
+SELECT CustomerID, CustomerName from customers
+SELECT ContactName, Address, City from customers
+SELECT Country from customers
+SELECT CustomerID, CustomerName, Country From customers
+SELECT OrderID from orders
+SELECT 
