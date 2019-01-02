@@ -1,8 +1,32 @@
-SELECT * FROM Customers
-SELECT CustomerID FROM Customers
-SELECT CustomerID, CustomerName from customers
-SELECT ContactName, Address, City from customers
-SELECT Country from customers
-SELECT CustomerID, CustomerName, Country From customers
-SELECT OrderID from orders
-SELECT 
+1.  SELECT * FROM Customers
+2.  SELECT CustomerID FROM Customers
+3.  SELECT CustomerID, CustomerName from customers
+4.  SELECT ContactName, Address, City from customers
+5.  SELECT Country from customers
+6.  SELECT CustomerID, CustomerName, Country From customers
+7.  SELECT OrderID from orders
+8.  SELECT CustomerID from orders
+9.  SELECT ShipperID,OrderID from orders
+10. SELECT OrderDate, Country from orders
+11. SELECT OrderDetailID from OrdersDetails
+12. SELECT ShipperName, Phone from Shippers
+13. SELECT LastName , FirstName from Employees
+14. SELECT LastName , FirstName, Notes from Employees
+15. SELECT BirthDate from Employees
+16. SELECT EmployeeID, Photo from Employees
+17. SELECT CategoryName, Description from Categories
+18. SELECT productID, ProductName from Products
+19. SELECT SupplierID from Products
+20. SELECT Unit, Price from Products
+21. SELECT DISTINCT Country from Customer
+22. SELECT DISTINCT EmployeeID from Orders
+23. SELECT DISTINCT CustomerID from Orders
+24. There are 8 tables
+25. Customers	 91
+Categories	8
+Employees	10
+OrderDetails	518
+Orders	        196
+Products	77
+Shippers	3
+Suppliers	29
