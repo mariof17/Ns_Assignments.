@@ -30,3 +30,7 @@ Orders	        196
 Products	77
 Shippers	3
 Suppliers	29
+26. SELECT model, make, drivetrain from cars where drivetrain='all' three records were affected
+27. SELECT origin, type from cars where origin='USA'
+147 rows were effected
+ 
