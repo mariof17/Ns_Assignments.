@@ -1,0 +1,47 @@
+1 select country, city from customers where country='Germany' and city='Berlin'
+
+2 select country, city  from customers where country='Germany' and city='Paris'
+
+3 select country, city from customers where country='Austria' and city='Graz'
+
+4 select country, city from customers where country='France' and city='Paris'
+
+5 select country, city from customers where country='France'and City='Lille'
+
+6 select country, city from customers where country='Spain' and city='Barcelona'
+
+7 select CustomerID, CustomerName, ContactName from customers where country='Germany' and city='Berlin'
+
+8 select customerID, customerName, contactName from customers where country='Germany' and city='Paris'
+
+9 select customerID, customerName, contactName from customers where country='Austria' and city='Graz'
+
+10 select customerID, customerName, contactName from customers where country='Austria' and city='Graz'
+
+11select customerID, customerName, contactName from customers where country='France' and city='Lille'
+
+12 select customerID, customerName, contactName from customers where country='Spain' and city='Barcelona'
+
+13 select city,country from customers where not country='Mexico'
+
+14 select city,country from customers where not country='Portland'
+
+15 select customerID,city,address from customers where not country='US'
+
+16 select city from customers where not country='Finland'
+
+17 select city,address from customers where not country='Brazil'
+
+18 select city from customers where not country='Germany'
+
+19 SELECT * FROM Customers WHERE Country='Germany' AND (City='Mannheim' OR City='München')
+
+20 .SELECT * FROM Customers WHERE Country='USA' AND (City='Portland' OR City='Seattle')
+
+21 SELECT * FROM Customers WHERE Country='USA' AND (city='Anchorage' or city='Albuquerque')
+
+22 SELECT * FROM Customers WHERE Country='USA' AND (city='Kirkland' or city='Seattle')
+
+23 SELECT * FROM Customers WHERE Country='Mexico' and (city='Mexican D.F.' or city='Spain')
+
+24 SELECT * FROM Customers WHERE Country='Spain' and (city='Madrid' or city='Barcelona' or city='Sevilla')
